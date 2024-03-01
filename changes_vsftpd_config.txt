@@ -1,0 +1,7 @@
+local_enable=YES
+write_enable=YES
+chroot_local_user=YES
+chroot_list_enable=YES
+chroot_list_file=/etc/vsftpd.chroot_list # or just uncomment
+ssl_enable=YES
+require_ssl_reuse=NO # add to the bottom of the file

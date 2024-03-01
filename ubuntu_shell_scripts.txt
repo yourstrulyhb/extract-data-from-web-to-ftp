@@ -1,0 +1,9 @@
+chown nobody:nogroup /home/ftpuser/ftp       # Change ownership
+
+chmod a-w /home/ftpuser/ftp 
+
+echo "ftpuser" | sudo tee -a /etc/vsftpd.chroot_list 
+
+sudo service vsftpd status    # 
+
+
